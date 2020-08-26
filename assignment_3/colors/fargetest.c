@@ -3,12 +3,21 @@
 #include "fargeskrift.h"
 
 int main(int argc, char *argv[]) {
-	unsigned int fargenr, bakgr;
+	unsigned int fargenr, bakgr, limit;
 	
-	if (argc != 2 || (fargenr = atoi(argv[1])) > 7 ) {
-		printf("Oppgi et fargenr. mellom 0 og 7\n");
+	if (argc != 2 || (limit = atoi(argv[1])) < 1 ) {
+		printf("Oppgi en grense\n");
 		exit(1);
 	}
 	bakgr = fargenr ? 0 : 7;
-	farge_printf(fargenr, bakgr, "Farge nr:%i\n", fargenr);
+	for (int i = 0; i < limit; i++) {
+		if (fargenr > 7) {
+			fargenr = 0;
+			bakgr = 0;
+		}
+		fargenr++;
+		bakgr++;
+		farge_printf(fargenr, bakgr, "\u2588", fargenr);
+	}
+	return 0;
 }
