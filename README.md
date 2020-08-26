@@ -3,9 +3,9 @@ Course TDAT3020; Security in software and networks
 
 * Assignment 1 - [Install Linux and compilers](/assignment_1)
 
-* Assignment 2 - [?](/assignment_1)
+* Assignment 2 - [Stacktrace and bug fixing](/assignment_2)
 
-* Assignment 3 - [?](/assignment_3)
+* Assignment 3 - [diff, patch, and version control](/assignment_3)
 
 * Assignment 4 - [?](/assignment_4)
 
