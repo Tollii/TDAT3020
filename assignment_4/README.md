@@ -1,8 +1,16 @@
 # Assembler
-![output.txt](./assembler/output.png)
+![output.png](./assembler/output.png)
 
-# Assembler
-![wow]()
+# C Example
+![c-example.png](./c-example/c_example.png)
 
-# Assembler
-![wow]()
+# String manipulation
+
+### C
+![C](./string_manipulation/images/c.png)
+
+### C++
+![CPP](./string_manipulation/images/cpp.png)
+
+### Rust
+![Rust](./string_manipulation/images/rust.png)
