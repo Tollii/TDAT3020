@@ -7,7 +7,7 @@ Course TDAT3020; Security in software and networks
 
 * Assignment 3 - [diff, patch, and version control](/assignment_3)
 
-* Assignment 4 - [?](/assignment_4)
+* Assignment 4 - [Intro to Assembly, C, C++, Rust](/assignment_4)
 
 * Asignment 5 - [?](/assignment_5)
 
