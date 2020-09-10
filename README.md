@@ -9,7 +9,7 @@ Course TDAT3020; Security in software and networks
 
 * Assignment 4 - [Intro to Assembly, C, C++, Rust](/assignment_4)
 
-* Asignment 5 - [?](/assignment_5)
+* Asignment 5 - [Shell scripting](/assignment_5)
 
 * Assignment 6 - [?](/assignment_6)
 
