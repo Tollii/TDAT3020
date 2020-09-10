@@ -1,0 +1,5 @@
+Grav aksenten gjør slik at teksten som kommer fra kommandoen i gravaksenten blir satt i strengen
+
+I det første eksempelet vil kommandoen skrive ut "jeg heter" pluss brukernavnet til den som kjører kommandoen
+
+I det andre eksempelet, vil en miljøvariabel bli satt til navnet til host systemet
