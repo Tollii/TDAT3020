@@ -3,11 +3,9 @@
 #include <string.h>
 
 int main() {
-  assert(is_capital_of_norway("") == false);
-
-  assert(is_capital_of_norway("Trondheim") == false);
-
-  assert(is_capital_of_norway("Oslo") == true);
-
-  assert(is_capital_of_norway("Oslofjorden") == false);
+  char *stringInput = "1 < 2 && 2 > 1";
+  char *stringResult = "1 &lt; 2 &amp;&amp; 2 &gt; 1";
+  char *actualResult = manipulate_string(stringInput, strlen(stringInput));
+  assert(actualResult == stringResult);
+  free(actualResult);
 }

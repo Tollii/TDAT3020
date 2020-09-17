@@ -1,16 +1,9 @@
-#include "utility.h"
+#include "../utility.h"
 #include <stdlib.h>
 #include <string.h>
 
 int LLVMFuzzerTestOneInput(const uint8_t *data, size_t size) {
-  // Create a c string from fuzzer data (with an additional byte set to '\0')
-  char *str = (char *)malloc(sizeof(char) * size + 1); // Create a c-string of length size + 1
-  memcpy(str, data, size);                             // Copy fuzzer data to string
-  str[size] = '\0';                                    // Set last byte of allocated string to '\0'
-
-  is_capital_of_norway(str);
-
-  free(str);
-
+  char *test = manipulate_string((const char *)data, size);
+  free(test);
   return 0;
 }
