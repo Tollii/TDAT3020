@@ -11,11 +11,11 @@ Course TDAT3020; Security in software and networks
 
 * Asignment 5 - [Shell scripting](/assignment_5)
 
-* Assignment 6 - [?](/assignment_6)
+* Assignment 6 - [Fuzzing in C/C++](/assignment_6)
 
 * Assignment 7 - [?](/assignment_7)
 
-* Assignment 8 - [?](/assignment_8)
+* Assignment 8 - [Passwords and authentication](/assignment_8)
 
 * Assignment 9 - [?](/assignment_9)
 
