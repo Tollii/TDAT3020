@@ -3,6 +3,9 @@
 .idea
 .vscode
 *.swp
+venv/
+.Python*
+__pycache__/
 
 # Prerequisites
 *.d
