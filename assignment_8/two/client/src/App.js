@@ -45,12 +45,14 @@ function App() {
 
     const handlePassword = event => {
         const salt = 'salt';
-        const hash = pbkdf2.pbkdf2Sync(password, salt, 2048, 15, 'sha512').toString('hex');
+        const hash = pbkdf2.pbkdf2Sync(event.target.value, salt, 2048, 15, 'sha512').toString('hex');
+        console.log('hash', hash);
         setPassword(hash);
     };
 
 
     const handleLoginButton = () => {
+        console.log(password);
         console.log('Logging in...');
         logIn()
 
