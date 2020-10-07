@@ -1,0 +1,17 @@
+1.
+
+The binary can be exploited with format strings as it's using printf without any formatting. This can be prevented by using printf("%s"); instead, as that would convert the users input to string and preventing the the use of string formats.
+
+2.
+
+// Found by being in edit mode and entering the missing indexes from 2 until 9
+Flag 0: ^FLAG^b0e3b4ec854fa612eb7bd2c24837303a76a5d004dd758b4f4756bbeb245576be$FLAG$
+
+// SQL injection, added a single apostrophe when I was editing a page 
+Flag 1: ^FLAG^d24a2f8875f1f34fd14d47bbbbf4262b932a761539c73d0faa1b29734cc651d8$FLAG$`
+
+// Found by having '<' or '>' in title/body
+Flag 2?: ^FLAG^bf9381e65152f09159472cc75676f4fbf0cde1396a975b97c34ef8cb553ad71c$FLAG$
+
+// Found by getting scripts in the markdown field by using div's onmouseout property
+Flag 3: ^FLAG^2bf6e5a04008aec153691d2ce6c434d94f3289be355783cbfa0408fefd9e2765$FLAG$
