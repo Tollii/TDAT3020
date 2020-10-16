@@ -1,0 +1,17 @@
+
+
+1; UPDATE products SET price = 1;
+
+Can be fixed by parameterizing the query.
+
+I.e.
+
+cur = db.cursor(prepared=True)
+
+input_id = 1
+
+query = """SELECT price FROM products WHERE id = %s"""
+
+cur.execute(query, (input_id))
+cur.commit()
+

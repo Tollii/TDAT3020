@@ -1,0 +1,4 @@
+
+// Found a function called print_flag in Ghidra, and saw that the input method was not limited by length, so a buffer overflow could occur.
+// Overwrote the return adress with the adress to the print_flag function
+Flag 1: ^FLAG^70733df7166974886b5cd7195491ffc36af61ee90893c0013a372d6c04aa3502$FLAG$
