@@ -22,3 +22,7 @@ Course TDAT3020; Security in software and networks
 * Assignment 10 - [Intro to web/application exploitation](/assignment_10)
 
 * Assignment 11 - [E-mail servers](/assignment_10)
+
+* Assignment 12 - [Web shop exploit, and binary exploit](/assignment_12)
+
+* Assignment 13 - [NIDS and HIDS](/assignment_13/N13.pdf)
