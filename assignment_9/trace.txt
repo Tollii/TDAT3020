@@ -1,0 +1,7 @@
+ 1  wlan-dsw.nettel.ntnu.no (10.22.12.2)  2.211 ms  2.161 ms  6.680 ms
+ 2  ntnu-csw2.nettel.ntnu.no (129.241.1.230)  1.654 ms  1.888 ms  1.907 ms
+ 3  ntnu-gw.nettel.ntnu.no (129.241.1.207)  2.107 ms  2.045 ms  2.354 ms
+ 4  ntnu-gw-cgn.nettel.ntnu.no (10.240.243.1)  2.535 ms *  2.904 ms
+ 5  trd-gw.uninett.no (158.38.0.221)  3.077 ms  3.253 ms  3.747 ms
+ 6  teknobyen-gw2.uninett.no (128.39.230.117)  3.007 ms  3.338 ms  4.084 ms
+ 7  a158-38-14-134.deploy.akamaitechnologies.com (158.38.14.134)  3.899 ms  4.264 ms  3.965 ms
