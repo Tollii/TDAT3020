@@ -17,7 +17,7 @@ Course TDAT3020; Security in software and networks
 
 * Assignment 8 - [Passwords and authentication](/assignment_8)
 
-* Assignment 9 - [?](/assignment_9)
+* Assignment 9 - [Firewalls](/assignment_9/N9.pdf)
 
 * Assignment 10 - [Intro to web/application exploitation](/assignment_10)
 
