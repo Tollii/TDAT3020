@@ -1,4 +1,5 @@
 # Misc
+.ipynb_checkpoints/
 *.tar.gz
 .DS_Store
 .idea
