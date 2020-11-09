@@ -26,3 +26,7 @@ Course TDAT3020; Security in software and networks
 * Assignment 12 - [Web shop exploit, and binary exploit](/assignment_12)
 
 * Assignment 13 - [NIDS and HIDS](/assignment_13/N13.pdf)
+
+* Assignment 14 - [Block ciphers](/assignment_14/Assignment_14.ipynb)
+
+* Assignment 16 - [HMAC, AES](/assignment_16/assignment_16.ipynb)
